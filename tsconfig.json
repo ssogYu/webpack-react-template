@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "target": "ES5",
+    "jsx":"react",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "./dist/"
+  }
+}
