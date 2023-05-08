@@ -2,14 +2,17 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"]
     },
-    "target": "ES5",
-    "jsx":"react",
+    "target": "ESNext",
+    "jsx": "react",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "outDir": "./dist/"
-  }
+    "outDir": "./dist/",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "typings.d.ts", "typing.d.ts"],
+  "exclude": ["node_modules", "config", "dist"]
 }
